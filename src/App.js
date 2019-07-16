@@ -6,7 +6,7 @@ class App extends Component {
   render() {
     return (
       <React.Fragment>
-        <Welcome />
+        <Welcome welcomeText="React Here Gang!!" />
       </React.Fragment>
     );
   }
