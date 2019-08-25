@@ -4,6 +4,7 @@ import Geeklife from './geek-life';
 import Includes from './includes';
 import ReactSVG from 'react-svg';
 import ReactLogo from '../img/react-logo.svg';
+import Form from './form';
 
 class Welcome extends Component {
   render() {
@@ -12,6 +13,7 @@ class Welcome extends Component {
       <div className="welcome">
         <Geeklife />
         <Includes />
+        <Form />
         <code>{welcomeText}</code>
         <ReactSVG src={ReactLogo} className="react-logo-container" />
       </div>
